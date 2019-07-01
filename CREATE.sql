@@ -3,7 +3,7 @@ create database biblioteca;
 use biblioteca;
 
 create table aluno(
-id_aluno int primary key,
+id_aluno int auto_increment primary key,
 nome_aluno varchar(32) not null
 );
 
